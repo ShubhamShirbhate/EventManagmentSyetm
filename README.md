@@ -12,7 +12,7 @@ This is a simple Event Management System developed using Django, a high-level Py
 ## Installation:
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/ShubhamShirbhate/EventManagmentSyetm.git
    ```
 
 2. Navigate to the project directory:
