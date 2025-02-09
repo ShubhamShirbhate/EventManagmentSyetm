@@ -24,13 +24,17 @@ This is a simple Event Management System developed using Django, a high-level Py
    ```bash
    pip install -r requirements.txt
    ```
+4. Setup Database tables:
+   ```bash
+   python manage.py makemigrations && migrate
+   ```
 
-4. Run the Django development server:
+5. Run the Django development server:
    ```bash
    python manage.py runserver
    ```
 
-5. Access the application in your web browser at `http://localhost:8000`.
+6. Access the application in your web browser at `http://localhost:8000`.
 
 ## Usage:
 - Create Event: Click on the "Add Event" button to create a new event. Fill in the required details and submit the form.
