@@ -12,3 +12,7 @@ class Event(models.Model):
     description = models.TextField(default='')  # Add description field with default value
     location = models.CharField(max_length=255, default='')  # Add location field with default value
     organizer = models.CharField(max_length=100, default='')  # Add organizer field with default value
+
+
+
+#sample testing
