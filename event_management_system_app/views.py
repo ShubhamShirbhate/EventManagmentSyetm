@@ -17,6 +17,9 @@ def delete_event(request, event_id):
     return redirect(reverse('category_list'))
 
 
+
+#adding sample file testing on merge
+
 def create_event(request):
     if request.method == 'POST':
         # Retrieve data from the POST request
